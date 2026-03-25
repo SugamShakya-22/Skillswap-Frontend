@@ -1,0 +1,25 @@
+{
+  "appId": "com.skillswap.app",
+  "appName": "SkillSwap",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "Keyboard": {
+      "resize": "none",
+      "resizeOnFullScreen": false
+    }
+  },
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true,
+    "allowNavigation": [
+      "http://192.168.1.75:8080",
+      "ws://192.168.1.75:8080"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backButtonBehavior": "none",
+    "useLegacyBridge": false
+  }
+}
